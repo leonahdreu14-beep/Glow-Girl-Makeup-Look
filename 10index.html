@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/transition.css">
+    <title>Materialize CSS</title>
+<style>
+    @keyframes insertleft {
+    0% {
+    opacity: 0}
+    100% {
+        opacity: 1}
+}
+@keyframes insertright {
+    0% {transform: translateX(150%);
+    opacity: 0}
+    100% {transform: translateX(0%);
+        opacity: 1}
+}
+.background1 {
+    width: 100%;
+    position: fixed;
+    filter: blur(10px);
+    transform: scale(1.15);
+    z-index: -1;
+
+}
+.background2 {
+    width: 100%;
+    position: fixed;
+    filter: blur(10px);
+    transform: scale(1.15);
+    z-index: -1;
+
+}
+.contact {
+    width: 30vw;
+    margin-left: 3vw;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+    animation-name: insertleft;
+    animation-duration: 3s;
+}
+.containerpo {
+    display: flex;
+    width: 100%;
+height: 47vw;
+flex-direction: column;
+justify-content: center;
+
+}
+.containerpo2 {
+    display: flex;
+    width: 100%;
+height: 47vw;
+position: absolute;
+justify-content: end;
+top: 0;
+}
+.containerpo3 {
+    display: flex;
+    width: 100%;
+height: 47vw;
+position: absolute;
+top: 0;
+}
+.containerpo2 h1 {
+    margin-right: 25vw;
+    margin-top: 3vw;
+    font-size: 8vw;
+        color: transparent;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background: linear-gradient(rgb(255, 97, 118),rgb(255, 137, 156),rgb(240, 74, 223));
+        background-size: fill;
+        background-clip: text;
+        filter: drop-shadow(0px 5px 5px rgb(0, 0, 0));
+        height: 10vw;
+        animation-name: insertleft;
+    animation-duration: 3s;
+   
+}
+.containerpo3 p {
+    margin-left: 35vw;
+    margin-top: 12vw;
+    padding-right: 3vw ;
+    font-size: 1.6vw;
+    text-align: justify;
+color: rgb(252, 244, 255);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        animation-name: insertleft;
+    animation-duration: 3s;
+        filter: drop-shadow(0px 5px 5px rgb(0, 0, 0));
+        height: 30vw;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+</style>
+</head>
+<body>
+<img src="/img/bg2.jpg" class="background2" alt="">
+<div class="containerpo"><img class="contact" src="/img/Base tutsjpg.jpg" alt=""></div>
+<div class="containerpo2" style="margin-left: 5%;"><h1>Base Makeup</h1></div>
+<div class="containerpo3">
+    <p> <br>Base Makeup: Do’s & Don’ts<br><br>
+
+        Do<br><br>
+        - Start with clean, moisturized skin.<br><br>
+        - Apply a thin layer of foundation or skin tint.<br><br>
+        - Blend around your hairline and jawline.<br><br>
+        - Use concealer only where you want extra coverage.<br><br>
+        - Set areas that tend to get shiny with a little powder.<br><br>
+        
+        Don’t<br><br>
+        - Apply too much product at once.<br><br>
+        - Choose a base shade that doesn’t match your skin.<br><br>
+        - Skip blending around the edges.<br><br>
+        - Use too much powder, which can make makeup look heavy.<br><br>
+        - Forget to remove your makeup at the end of the day.<br><br>
+</p>
+</div>
+
+</body>
+</html>
+
+</body>
+</html>
+   
